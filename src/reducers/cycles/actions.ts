@@ -19,7 +19,7 @@ export function markCurrentCyclesAsFinishedAction() {
     type: ActionTypes.MARK_CURRENT_CYCLE_AS_FINISHED,
   }
 }
-export function interruptedCyclesAction() {
+export function interruptedCurrentCyclesAction() {
   return {
     type: ActionTypes.INTERRUPT_CURRENT_CYCLE,
   }
