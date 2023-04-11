@@ -14,6 +14,10 @@ export const HomeContainer = styled.div`
     align-items: center;
     gap: 3.5rem;
   }
+
+  @media (max-width: 768px) {
+    margin-top: 2rem;
+  }
 `
 
 export const FormContainer = styled.div`
@@ -26,6 +30,10 @@ export const FormContainer = styled.div`
   font-size: 1.125rem;
   font-weight: bold;
   flex-wrap: wrap;
+
+  @media (max-width: 480px) {
+    font-size: 0.8rem;
+  }
 `
 const BaseInput = styled.input`
   background-color: transparent;

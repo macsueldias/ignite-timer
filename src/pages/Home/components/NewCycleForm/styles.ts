@@ -10,6 +10,10 @@ export const FormContainer = styled.div`
   font-size: 1.125rem;
   font-weight: bold;
   flex-wrap: wrap;
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
 `
 const BaseInput = styled.input`
   background-color: transparent;
